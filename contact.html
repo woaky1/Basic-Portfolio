@@ -5,32 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <heading>
-        <h1>Will Oakley</h1>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </heading>
+    <div class="headingContainer">
+        <div class="heading">
+            <div class="name">
+                <h1>Will Oakley</h1>
+            </div>
+
+            <div class="menu">
+                <a class="menuItems" href="index.html">About</a>
+                <span class="verticalLine"></span>
+                <a class="menuItems" href="portfolio.html">Portfolio</a>
+                <span class="verticalLine"></span>
+                <a class="menuItems" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
 
     <section>
-        <h1>Contact</h1>
-        <div>
-            <form>
-                <label>Name</label>
-                <input type="text" placeholder="John Smith">
-                <label>Email</label>
-                <input type="text" placeholder="example@gmail.com">
-                <label>Message</label>
-                <input type="text">
-            </form>
+        <div class="backgroundBox">
+            <div class="mainContent">
+            <h2 class="aboutMe">Contact</h2>
+            <hr class="abnoutMe">
+                <div>
+                    <form>
+                        <label>Name</label>
+                        <br>
+                        <input type="text" placeholder="John Smith">
+                        <br>
+                        <label>Email</label>
+                        <br>
+                        <input type="text" placeholder="example@gmail.com">
+                        <br>
+                        <label>Message</label>
+                        <br>
+                        <input type="text">
+                    </form>
+                </div>
+            </div>
         </div>
-        <form></form>
     </section>
 
-    <footer>
-        <p>Copyright &#169;</p>
-    </footer>
+    <div class="footer">
+        <p class="copyright">Copyright &#169;</p>
+    </div>
 </body>
 </html>
