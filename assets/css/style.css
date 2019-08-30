@@ -12,13 +12,15 @@ body {
     position: relative;
     width: 100%;
     background-color: #ffffff;
-    height: 100px;
+    height: 101px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1pt solid #666666;
 }
 
 .heading {
     background-color: #ffffff;
-    border-bottom-color: #000000;
-    border: 2px;
     position: relative;
     height: 100px;
     text-align: center;
@@ -32,14 +34,14 @@ body {
     background-attachment: fixed;
     position: relative;
     background-image: url(../images/leaves.png);
+    margin-top: 25px;
 }
 
 .mainContent {
     width: 960px;
     background: #ffffff;
     margin: 0 auto;
-    border: #666666;
-    border-width: 1px;
+    border: #666666 solid 1px;
     height: 400px;
 }
 .name {
@@ -72,12 +74,14 @@ p {
     bottom: 0px;
     height: 75px;
     width: 100%;
+    border-top: 10px solid #4aaaa5;
 }
 
 .copyright {
     text-align: center;
     color: #afaeae;
     font-size: 8pt;
+    padding-top: 50px;
 }
 
 .menu{
@@ -108,5 +112,29 @@ p {
 }
 
 .centralTextBox {
-    float: right;
+    float: left;
+    margin-left: 25px;
+}
+
+#aboutMe {
+    margin: 10px 0px;
+}
+
+#hangman {
+    background-image: url(../images/hangman.jpg);
+    height: 200px;
+    width: 200px;
+    position: relative;
+    float: left;
+    margin: 30px 40px 40px 20px;
+}
+
+.pictureBox {
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    line-height: 300%;
 }
