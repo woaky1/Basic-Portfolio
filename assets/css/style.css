@@ -54,7 +54,8 @@ body {
 }
 
 #contactMainContent {
-    height: 400px;
+    height: 600px;
+    margin-bottom: 200px;
 }
 
 .name {
@@ -173,15 +174,32 @@ p {
 
 form {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
+    font-size: 16pt;
     margin: 20px;
 }
 
 input {
     font-size: 12pt;
     width: 100%;
+    padding: 5pt;
+    margin-top: 5px;
 }
 
 label {
     line-height: 150%;
+}
+
+.formRow {
+    padding-top: 10pt;
+}
+
+#formBigBox {
+    height: 200px;
+}
+
+#submit {
+    width: 100px;
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
 }

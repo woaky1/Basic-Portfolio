@@ -28,22 +28,31 @@
 
     <section>
         <div class="backgroundBox">
-            <div class="mainContent">
+            <div class="mainContent" id="contactMainContent">
             <h2 class="aboutMe">Contact</h2>
             <hr class="abnoutMe">
                 <div>
                     <form>
-                        <label>Name</label>
-                        <br>
-                        <input type="text" placeholder="John Smith">
-                        <br>
-                        <label>Email</label>
-                        <br>
-                        <input type="text" placeholder="example@gmail.com">
-                        <br>
-                        <label>Message</label>
-                        <br>
-                        <input type="text">
+                        <div class="formRow">
+                            <label>Name</label>
+                            <br>
+                            <input type="text" placeholder="John Smith">
+                            <br>
+                        </div>
+                        <div class="formRow">
+                            <label>Email</label>
+                            <br>
+                            <input type="text" placeholder="example@gmail.com">
+                            <br>
+                        </div>
+                        <div class="formRow">
+                            <label>Message</label>
+                            <br>
+                            <input type="text" id="formBigBox">
+                        </div>
+                        <div class="formRow">
+                            <input type="submit" value="Submit" id="submit">
+                        </div>
                     </form>
                 </div>
             </div>
