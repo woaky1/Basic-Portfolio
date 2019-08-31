@@ -82,6 +82,11 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
 .footer {
     background-color: #666666;
     position: fixed;
@@ -105,7 +110,7 @@ p {
 
 .menuItems{
     margin-left: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 .clearfix::after {
     content: "";
@@ -118,20 +123,21 @@ p {
     border-right-color: #777777;
     border-right-width: 1px;
     border-right-style: solid;
-    padding-right: 5px;
+    padding-right: 4px;
 }
 
 #bioImage {
     float: left;
+    padding: 20px;
 }
 
 .centralTextBox {
-    float: left;
     margin-left: 25px;
+    padding: 20px;
 }
 
 .aboutMe {
-    margin: 10px 0px;
+    margin: 10px 20px;
 }
 
 .pictureBox {
@@ -202,4 +208,8 @@ label {
     background: #4aaaa5;
     color: #ffffff;
     height: 40px;
+}
+
+.white {
+    color: #ffffff;
 }
