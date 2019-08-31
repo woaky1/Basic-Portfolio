@@ -213,3 +213,12 @@ label {
 .white {
     color: #ffffff;
 }
+
+textarea {
+    font-size: 10pt;
+    width: 100%;
+    padding: 5pt;
+    margin-top: 5px;
+    color: #777777;
+    resize: none;
+}
